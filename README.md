@@ -6,6 +6,8 @@ Built to present full-stack development work, backend architecture experience, a
 
 ## Live Website
 
+https://alialzein-porfolio.netlify.app/
+
 ## About
 
 I am a Computer and Communications Engineering student entering my final year, focused on building scalable backend systems, full-stack applications, and AI-integrated solutions.

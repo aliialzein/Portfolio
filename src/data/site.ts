@@ -119,7 +119,7 @@ export const projects: Project[] = [
     },
 
     {
-    title: 'Teleco (UI/UX Design)',
+    title: 'Teleco',
     description:'End-to-end web, Android, and IOS application design focused on telecom service workflows, account management, and user-centered interaction design.',
     tech: [
         'Figma',
