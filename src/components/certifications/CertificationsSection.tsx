@@ -8,11 +8,11 @@ export default function CertificationsSection() {
       eyebrow="Certifications"
       title="Training & Certifications"
     >
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="flex gap-4 overflow-x-auto pb-3 pr-1 snap-x snap-mandatory sm:grid sm:grid-cols-2 sm:overflow-visible">
         {certifications.map((certification) => (
           <article
             key={certification.title}
-            className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-soft backdrop-blur-xl"
+            className="snap-start flex-shrink-0 min-w-[280px] max-w-[320px] sm:max-w-none sm:flex-shrink rounded-2xl sm:rounded-3xl border border-white/10 bg-white/5 p-4 sm:p-6 shadow-soft backdrop-blur-xl"
           >
             <p className="text-xs uppercase tracking-[0.22em] text-slate-400">
               {certification.organization}

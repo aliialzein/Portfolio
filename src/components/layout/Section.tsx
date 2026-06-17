@@ -31,13 +31,13 @@ export default function Section({
   return (
     <motion.section
       id={id}
-      className={`scroll-mt-28 py-14 sm:py-16 ${className}`.trim()}
+      className={`scroll-mt-28 py-10 sm:py-14 ${className}`.trim()}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
       variants={sectionVariants}
     >
-      <div className="mx-auto max-w-6xl px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="mb-8 max-w-2xl">
           <p className="text-sm font-medium uppercase tracking-[0.24em] text-sky-300/80">
             {eyebrow}
