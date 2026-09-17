@@ -78,6 +78,7 @@ export const projects: Project[] = [
       'Docker',
     ],
     github: 'https://github.com/aliialzein/DenTool',
+    live: 'https://den-tool-web.vercel.app/',
     featured: true,
     impact:
       'Designed and implemented a modular monolith with REST APIs, admin authentication, product and category management, image uploads, Redis caching, and product validation before generating WhatsApp purchase requests.',
@@ -97,8 +98,7 @@ export const projects: Project[] = [
       'GitHub Actions',
     ],
     featured: true,
-    live: 'https://den-tool-web.vercel.app/',
-    github: 'https://github.com/aliialzein/DenTool',
+    github: 'https://github.com/aliialzein/techtalks-Foodie-Land',
     impact:
       'Developed RESTful APIs and modular backend features using layered architecture, implemented validation and error handling, and contributed to automated testing and full-stack feature development within an Agile team.',
   },
